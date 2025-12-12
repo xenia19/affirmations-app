@@ -6,9 +6,6 @@
 [![Rating](https://img.shields.io/badge/Rating-4.0_⭐-FFD700?style=for-the-badge)](https://play.google.com/store/apps/details?id=com.voiceapp.voice)
 [![React Native](https://img.shields.io/badge/React_Native-0.78-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactnative.dev/)
 
-<p align="center">
-  <img src="screenshots/banner.png" alt="App Banner" width="100%"/>
-</p>
 
 ## 📱 About
 
@@ -153,12 +150,9 @@ Custom i18n system      │  EN / ES / RU translations
   <img src="screenshots/02-categories.png" width="180" alt="Categories"/>
   <img src="screenshots/03-record.png" width="180" alt="Recording"/>
   <img src="screenshots/04-player.png" width="180" alt="Player"/>
+   <img src="screenshots/06-relaxation.png" width="180" alt="Relaxation"/>
 </p>
 
-<p align="center">
-  <img src="screenshots/05-ai.png" width="180" alt="AI Generator"/>
-  <img src="screenshots/06-relaxation.png" width="180" alt="Relaxation"/>
-</p>
 
 ## 📊 Results & Metrics
 
