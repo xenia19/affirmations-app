@@ -51,7 +51,7 @@ react-native-sound                  │  Ambient sounds mixing
 
 ### Backend & Services
 ```
-Firebase Analytics       │  User behavior tracking
+Firebase Analytics      │  User behavior tracking
 RevenueCat              │  Subscription management
 Notifee                 │  Local push notifications
 Sentry                  │  Crash reporting & monitoring
@@ -146,7 +146,6 @@ Custom i18n system      │  EN / ES / RU translations
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/01-home.png" width="180" alt="Home Screen"/>
   <img src="screenshots/02-categories.png" width="180" alt="Categories"/>
   <img src="screenshots/03-record.png" width="180" alt="Recording"/>
   <img src="screenshots/04-player.png" width="180" alt="Player"/>
