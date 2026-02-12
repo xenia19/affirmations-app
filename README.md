@@ -17,6 +17,8 @@ Positive Audio Affirmations helps users reprogram their subconscious mind throug
 
 | Feature | Description |
 |---------|-------------|
+|🆕 **AI Voice Synthesis** | Integration with ElevenLabs API for ultra-realistic text-to-speech generation.
+|**Dynamic Tier Limits** | Logic to handle API usage quotas based on user subscription status (Free/Pro).
 | 🎙️ **Voice Recording** | Record personalized affirmations in your own voice |
 | 📚 **100+ Affirmations** | Pre-written content across 10+ categories |
 | 🤖 **AI Generator** | Smart affirmation suggestions based on user goals |
@@ -45,7 +47,6 @@ AsyncStorage
 ### Audio System
 ```
 react-native-audio-recorder-player  │  Voice recording
-react-native-track-player           │  Background audio playback
 react-native-sound                  │  Ambient sounds mixing
 ```
 
@@ -55,6 +56,8 @@ Firebase Analytics      │  User behavior tracking
 RevenueCat              │  Subscription management
 Notifee                 │  Local push notifications
 Sentry                  │  Crash reporting & monitoring
+ElevenLabs API          │ (Text-to-Speech)
+DeepSeek API            │  AI Generator
 ```
 
 ### Localization
@@ -142,6 +145,18 @@ Custom i18n system      │  EN / ES / RU translations
 - `Notifee` for reliable local notifications
 - Motivational content rotation
 - Separate reactivation campaign for non-subscribers
+
+### 6. Managing High-Cost AI APIs & Quotas
+
+**Challenge:** Implementing expensive AI text-to-speech features while maintaining a freemium model without bankrupting the project.
+
+**Solution:**
+
+Engineered a quota system on the frontend to strictly limit API calls (character/second limits) based on subscription tiers.
+
+Implemented local caching: Generated audio files are saved to the file system (react-native-fs) with a hash map. If a user requests the same phrase again, the app plays the local file instead of calling the API, saving 100% of costs on repeats.
+
+Fail-safe architecture: Usage limits are checked locally before any network request is initiated.
 
 ## 📸 Screenshots
 
