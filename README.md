@@ -18,7 +18,6 @@ Positive Audio Affirmations helps users reprogram their subconscious mind throug
 | Feature | Description |
 |---------|-------------|
 |🆕 **AI Voice Synthesis** | Integration with ElevenLabs API for ultra-realistic text-to-speech generation.
-|**Dynamic Tier Limits** | Logic to handle API usage quotas based on user subscription status (Free/Pro).
 | 🎙️ **Voice Recording** | Record personalized affirmations in your own voice |
 | 📚 **100+ Affirmations** | Pre-written content across 10+ categories |
 | 🤖 **AI Generator** | Smart affirmation suggestions based on user goals |
