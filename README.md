@@ -2,7 +2,7 @@
 
 > A self-hypnosis mobile app for building positive habits through personalized voice affirmations.
 
-[![Google Play](https://img.shields.io/badge/Google_Play-5K+_downloads-34A853?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.voiceapp.voice)
+[![Google Play](https://img.shields.io/badge/Google_Play-10K+_downloads-34A853?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.voiceapp.voice)
 [![Rating](https://img.shields.io/badge/Rating-4.0_⭐-FFD700?style=for-the-badge)](https://play.google.com/store/apps/details?id=com.voiceapp.voice)
 [![React Native](https://img.shields.io/badge/React_Native-0.78-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactnative.dev/)
 
@@ -152,11 +152,11 @@ Custom i18n system      │  EN / ES / RU translations
 
 **Solution:**
 
-Engineered a quota system on the frontend to strictly limit API calls (character/second limits) based on subscription tiers.
+- Engineered a quota system on the frontend to strictly limit API calls (character/second limits) based on subscription tiers.
 
-Implemented local caching: Generated audio files are saved to the file system (react-native-fs) with a hash map. If a user requests the same phrase again, the app plays the local file instead of calling the API, saving 100% of costs on repeats.
+- Implemented local caching: Generated audio files are saved to the file system (react-native-fs) with a hash map. If a user requests the same phrase again, the app plays the local file instead of calling the API, saving 100% of costs on repeats.
 
-Fail-safe architecture: Usage limits are checked locally before any network request is initiated.
+- Fail-safe architecture: Usage limits are checked locally before any network request is initiated.
 
 ## 📸 Screenshots
 
@@ -172,7 +172,7 @@ Fail-safe architecture: Usage limits are checked locally before any network requ
 
 | Metric | Value |
 |--------|-------|
-| 📥 Downloads | **5,000+** |
+| 📥 Downloads | **10,000+** |
 | ⭐ Rating | **4.0** (97 reviews) |
 | 📱 Crash-free rate | **99.5%** |
 | 🔄 Day-7 Retention | ~25% |
@@ -202,7 +202,7 @@ I'm **Xenia**, a frontend and mobile developer based in Italy. I built this enti
 **What makes this project special:**
 - 🎯 Designed, developed, and shipped **100% independently**
 - 🔄 Continuous updates based on user feedback
-- 📈 Organic growth to 5K+ downloads
+- 📈 Organic growth to 10K+ downloads
 - 💰 Profitable freemium business model
 
 ---
@@ -213,4 +213,4 @@ This repository contains **documentation and architecture overview only**. The s
 
 ## 📄 License
 
-© 2025 Xenia Galaktionova. All rights reserved.
+© 2026 Xenia Galaktionova. All rights reserved.
