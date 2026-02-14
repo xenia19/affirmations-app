@@ -160,13 +160,13 @@ Custom i18n system      │  EN / ES / RU translations
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/02-categories.png" width="180" alt="Categories"/>
+     <img src="screenshots/06-ai-creator.png" width="180" alt="AI"/>
+     <img src="screenshots/04-voices.png" width="180" alt="Voices"/>
   <img src="screenshots/03-record.png" width="180" alt="Recording"/>
     <img src="screenshots/01-home.png" width="180" alt="Recording"/>
    <img src="screenshots/06-relaxation.png" width="180" alt="Relaxation"/>
-     <img src="screenshots/04-voices.png" width="180" alt="Voices"/>
-     <img src="screenshots/05-ai.png" width="180" alt="AI"/>
-       <img src="screenshots/06-ai-creator.png" width="180" alt="AI"/>
+
+      <img src="screenshots/02-categories.png" width="180" alt="Categories"/>
 </p>
 
 
